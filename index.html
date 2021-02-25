@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Color slider</title>
+</head>
+<body>
+<div class="main-container">
+    <fieldset class="select">
+        <legend>Select</legend>
+        <button id="color" class="select__color">color</button>
+        <button id="backgroundColor" class="select__backgroundColour active">backgroundColour</button>
+    </fieldset>
+    <div class="slider">
+        <div class="slider-container">
+            <div id="red" class="ui-slider ui-slider-horizontal">
+                <span class="ui-slider-handle"></span>
+            </div>
+            <div id="green" class="ui-slider ui-slider-horizontal">
+                <span class="ui-slider-handle"></span>
+            </div>
+            <div id="bleu" class="ui-slider ui-slider-horizontal">
+                <span class="ui-slider-handle"></span>
+            </div>
+        </div>
+        <div id="textBox">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.body {
+	width: 100%;
+}
+.main-container {
+	width: 50%;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.select {
+	display: flex;
+	gap: 20px;
+	border: 2px solid #BEBEBE;
+	padding: 15px 30px;
+}
+.select button.active {
+background-color: #4072FE;
+	color: #FFFFFF;
+}
+.slider {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	justify-content: space-around;
+}
+.slider-container {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+#red {
+	background-color: #E72923;
+}
+#red .ui-slider-handle {
+	border: 1px solid #E72923;
+}
+#green {
+	background-color: #8AE52F;
+}
+#green .ui-slider-handle {
+	border: 1px solid #8AE52F;
+}
+
+#bleu {
+	background-color: #799ACD;
+}
+#bleu .ui-slider-handle {
+	border: 1px solid #799ACD;
+}
+#textBox {
+	width: 300px;
+	padding: 20px;
+	border: 2px solid #DCDCDC;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
